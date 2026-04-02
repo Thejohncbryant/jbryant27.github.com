@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* Reset default browser spacing */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/* Center everything on the page */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	overflow: hidden;
+}
+
+/* Hero section container */
+.hero {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+	padding: 40px;
+}
+
+/* Add spacing between elements */
+.hero h1 {
+	font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+	font-size: 20px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Profile image sizing */
+.profile-img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+	border-radius: 200px;
+}
+
+/* Space out the buttons */
+.cta-buttons a {
+    margin: 0 10px;
+}
+.cta-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    color: black;
+    border-radius: 25px;
+	transition: 0.3s;
+}
+
+.cta-buttons a:hover {
+    background-color: #cfcfcf;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+header {
+    padding: 20px;
+}
+.hero-text {
+    text-align: center;
+    max-width: 500px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    color: black;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.cta-buttons a:hover {
+    background-color: #cfcfcf;
+}
+
+.profile-img {
+    width: 220px;
+    height: auto;
+    border-radius: 50%;
+}
